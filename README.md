@@ -1,4 +1,4 @@
-# Balloon Animation with Responsive Design
+# Hot Air Balloon
 
 This project demonstrates a **balloon animation** with a **zigzag flying effect** and a **responsive design** that adapts to various screen sizes. The animation uses CSS keyframes to move the balloon across the screen with smooth transitions and rotation effects. The layout is fully responsive to provide an optimal viewing experience across different devices.
 
