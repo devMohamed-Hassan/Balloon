@@ -16,4 +16,4 @@ This project demonstrates a **balloon animation** with a **zigzag flying effect*
 
 ## Live Demo
 
-You can view the live demo of this project [here](https://mohamed-h-esmail.github.io/Balloon/).
+You can view the live demo of this project [Balloon](https://mohamed-h-esmail.github.io/Balloon/).
