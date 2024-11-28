@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1a2a6c, #b21f1f, #fdbb2d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balloon {
+    width: 100vh;
+    position: absolute;
+    top: 50%;
+    left: -300px;
+    transform: translateY(-50%);
+}
+
+img {
+    width: 50%;
+    animation: flyZigzag 10s ease-in-out infinite;
+}
+
+@keyframes flyZigzag {
+    0% {
+        transform: translateX(0) translateY(0px) rotate(5deg);
+    }
+
+    20% {
+        transform: translateX(20vw) translateY(-50px) rotate(-5deg);
+        /* Move up */
+    }
+
+    40% {
+        transform: translateX(40vw) translateY(50px) rotate(5deg);
+        /* Move down */
+    }
+
+    60% {
+        transform: translateX(60vw) translateY(-50px) rotate(-5deg);
+        /* Move up */
+    }
+
+    80% {
+        transform: translateX(80vw) translateY(50px) rotate(5deg);
+        /* Move down */
+    }
+
+    100% {
+        transform: translateX(100vw) translateY(0px) rotate(0deg);
+        /* End position */
+    }
+}
