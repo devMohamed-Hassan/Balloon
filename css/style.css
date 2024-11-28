@@ -51,3 +51,33 @@ img {
         /* End position */
     }
 }
+
+@media (max-width: 1200px) {
+    .balloon {
+        left: -200px;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .balloon {
+        left: -100px;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .balloon {
+        left: -50px;
+    }
+
+    img {
+        width: 90%;
+    }
+}
